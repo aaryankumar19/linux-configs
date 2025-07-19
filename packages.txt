@@ -1,0 +1,41 @@
+[PACMAN]
+vlc
+JetBrainsMono
+zoxide
+fastfetch
+btop
+code-insiders
+flatpak
+kdeconnect
+python
+python-pip
+fzf
+telegram-desktop
+npm
+bat
+gwenview
+okular
+git
+kalk
+yazi
+eza
+openssh
+github-cli
+neovim
+
+
+[yay]
+chrome
+dpkg
+
+[manual]
+
+yay :
+git clone https://aur.archlinux.org/yay.git\
+cd yay
+makepkg -si
+
+[flatpak]
+flatpak install flathub org.onlyoffice.desktopeditors
+flatpak install flathub com.obsproject.Studio
+
